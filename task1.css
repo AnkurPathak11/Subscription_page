@@ -1,0 +1,112 @@
+body{
+    background-color: rgba(53, 51, 51, 0.952);
+}
+
+
+.pricing-plan{
+    width: 300px;
+    font-family: 'lato' , sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: black;
+    
+}
+ .header{
+     padding: 20px;
+     background: rgb(95, 95, 105);
+     color: #ffffff;
+ }
+.title{
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: 400;
+}
+
+.pricing-plan-summary{
+    font-size: 1em;
+    font-weight: 300;
+}
+
+.description{
+    padding: 25px;
+}
+
+.description_list{
+    color:black;
+    background-color: white;
+    margin:-25px;
+    padding:0;
+}
+.description_feature{
+    text-align: center;
+    list-style-type: none;
+    margin: 0;
+    padding-left: 25px;
+    position: relative;
+    font-size : 0.9em;
+}
+
+.description_feature:not(:last-child){
+    margin-bottom:0.5em;
+    border-radius: 20px;
+}
+
+.description_feature::before{
+ 
+ color: gray;
+ position: absolute;
+ left:0;   
+}
+
+.price_tag{
+    padding: 25px;
+    border-top: 1px solid white;
+    display: block;
+    font-display: column;
+    color: black;
+    background: white;
+}
+
+.Signup_button{
+    display: block;
+    margin: 15px auto;
+    padding: 8px 20px;
+    text-decoration: none;
+    color: white;
+    background: #00BFFF;
+    border-radius: 5px;
+    border:1px solid ;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+    font-weight: bold;
+}
+
+.Signup_button:hover{
+    background: green;
+    color: white;
+}
+
+.cost{
+    margin:0;
+    text-align: center;
+    font-size: 2em;
+}
+.pricing-plan-text{
+    margin:0;
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;  
+     
+}
+.header #professional{
+    padding: 30px;  
+}
+
+.header #ultimate{
+    padding: 23px;
+}
